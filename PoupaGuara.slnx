@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/source/">
+    <Project Path="source/PoupaGuara.API/PoupaGuara.API.csproj" />
+  </Folder>
+</Solution>

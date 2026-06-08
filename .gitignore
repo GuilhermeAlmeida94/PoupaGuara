@@ -1,0 +1,20 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Package management
+package.json
+packages/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Runtime
+*.log
+appsettings.*.json

@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\source\PoupaGuara.Auth\PoupaGuara.Auth.csproj" />
-    <ProjectReference Include="..\..\source\PoupaGuara.Contracts\PoupaGuara.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

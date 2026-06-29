@@ -1,5 +1,4 @@
-using PoupaGuara.Contracts.Repositories;
-using PoupaGuara.Contracts.UserDomain;
+using PoupaGuara.Auth.Models;
 
 namespace PoupaGuara.Auth.Repositories;
 

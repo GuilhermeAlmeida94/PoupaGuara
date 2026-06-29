@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PoupaGuara.Auth.Filters;
+namespace PoupaGuara.Common.Filters;
 
 // Minimal API does not run validation automatically. This generic filter
 // executes IValidator<T> and short-circuits with 400 + error codes on failure.

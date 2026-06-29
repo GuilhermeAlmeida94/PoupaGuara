@@ -2,7 +2,7 @@
   <Folder Name="/source/">
     <Project Path="source/PoupaGuara.API/PoupaGuara.API.csproj" />
     <Project Path="source/PoupaGuara.Auth/PoupaGuara.Auth.csproj" />
-    <Project Path="source/PoupaGuara.Contracts/PoupaGuara.Contracts.csproj" />
+    <Project Path="source/PoupaGuara.Common/PoupaGuara.Common.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/PoupaGuara.Auth.UnitTests/PoupaGuara.Auth.UnitTests.csproj" />

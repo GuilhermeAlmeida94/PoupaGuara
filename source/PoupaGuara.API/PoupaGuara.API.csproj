@@ -4,7 +4,12 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-      <RootNamespace>PoupaGuara</RootNamespace>
+    <RootNamespace>PoupaGuara</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PoupaGuara.Auth\PoupaGuara.Auth.csproj" />
+    <ProjectReference Include="..\PoupaGuara.Contracts\PoupaGuara.Contracts.csproj" />
+  </ItemGroup>
 
 </Project>

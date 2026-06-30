@@ -4,11 +4,11 @@ using PoupaGuara.Common.Filters;
 
 namespace PoupaGuara.Endpoints;
 
-public static class UsuarioEndpoints
+public static class UserEndpoints
 {
-    public static void MapUsuarioEndpoints(this WebApplication app)
+    public static void MapUserEndpoints(this WebApplication app)
     {
-        app.MapPost("/usuarios", async (CreateUserDto dto, IUserRepository repo) =>
+        app.MapPost("/users", async (CreateUserDto dto, IUserRepository repo) =>
         {
             var user = new User
             {
@@ -19,13 +19,13 @@ public static class UsuarioEndpoints
             };
 
             await repo.AddAsync(user);
-            return Results.Created($"/usuarios/{user.Id}", new { user.Id });
+            return Results.Created($"/users/{user.Id}", new { user.Id });
         })
         .WithValidation<CreateUserDto>()
-        .WithName("CriarUsuario")
-        .WithSummary("Cria um novo usuário")
-        .WithDescription("Cria um novo usuário no sistema com nome, e-mail, data de nascimento e senha.")
-        .WithTags("Usuarios")
+        .WithName("CreateUser")
+        .WithSummary("Creates a new user")
+        .WithDescription("Creates a new user in the system with name, email, birth date and password.")
+        .WithTags("Users")
         .Produces(StatusCodes.Status201Created)
         .ProducesValidationProblem();
     }

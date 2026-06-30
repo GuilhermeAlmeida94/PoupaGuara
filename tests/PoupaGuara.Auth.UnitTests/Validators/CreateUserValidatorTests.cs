@@ -1,6 +1,6 @@
 using FluentValidation.TestHelper;
+using PoupaGuara.Auth.Models;
 using PoupaGuara.Auth.Validators;
-using PoupaGuara.Contracts.UserDomain;
 
 namespace PoupaGuara.Auth.UnitTests.Validators;
 

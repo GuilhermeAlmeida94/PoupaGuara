@@ -1,4 +1,4 @@
-namespace PoupaGuara.Contracts.UserDomain;
+namespace PoupaGuara.Auth.Models;
 
 public class User
 {

@@ -1,5 +1,5 @@
 using FluentValidation;
-using PoupaGuara.Contracts.UserDomain;
+using PoupaGuara.Auth.Models;
 
 namespace PoupaGuara.Auth.Validators;
 

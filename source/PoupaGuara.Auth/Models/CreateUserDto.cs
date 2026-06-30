@@ -1,4 +1,4 @@
-namespace PoupaGuara.Contracts.UserDomain;
+namespace PoupaGuara.Auth.Models;
 
 // Nullable fields are intentional: validation "*-null" codes fire when fields
 // are absent rather than letting model binding fail before validation runs.

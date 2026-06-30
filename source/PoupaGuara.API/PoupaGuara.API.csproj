@@ -9,7 +9,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PoupaGuara.Auth\PoupaGuara.Auth.csproj" />
-    <ProjectReference Include="..\PoupaGuara.Contracts\PoupaGuara.Contracts.csproj" />
+    <ProjectReference Include="..\PoupaGuara.Common\PoupaGuara.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.16.6" />
   </ItemGroup>
 
 </Project>

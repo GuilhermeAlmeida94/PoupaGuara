@@ -36,6 +36,6 @@ app.MapOpenApi();
 app.MapScalarApiReference();
 
 app.MapGet("/", () => "Hello World!");
-app.MapUsuarioEndpoints();
+app.MapUserEndpoints();
 
 app.Run();
